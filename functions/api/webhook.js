@@ -8,8 +8,8 @@ export async function onRequestPost(context) {
     const firstName = update.message.from.first_name || 'کاربر';
     const lastName = update.message.from.last_name || '';
     const fullName = lastName ? `\( {firstName} \){lastName}` : firstName;
-    const botToken = '8464936009:AAFoF_QYvtJhmGVT95osG15_BKef8h-D8Oo';
-    const adminChatId = '6804185478';
+    const botToken = '';
+    const adminChatId = ';
 
     let responseText = '';
     
