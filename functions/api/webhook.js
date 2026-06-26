@@ -20,7 +20,7 @@ export async function onRequestPost(context) {
   if (chatId.toString() !== adminChatId) {
     // کاربر عادی (تیکت جدید)
     if (messageText === '/start') {
-      responseText = `😍 به پشتیبانی ربات تورنادو خوش اومدی ${fullName}! 😘\n\n` +
+      responseText = `😍 به پشتیبانی ربات تورنادو خوش اومدی ${fullName} ! 😘\n\n` +
                      `من همیشه اینجا هستم تا بهت کمک کنم 🦸‍♂️\n` +
                      `هر سؤال ، مشکل یا پیشنهادی داری ، فقط بگو ! 🚀🔥\n\n` +
                      `🆔 آیدی تو : <code>${chatId}</code> (روی آیدی بزن تا کپی بشه!) \n\n` +
