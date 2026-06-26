@@ -31,7 +31,7 @@ export async function onRequestPost(context) {
       await sendMessage(adminChatId, forwardText, botToken);
 
       responseText = `✅ ممنون ${fullName}! پیام‌ات رو دریافت کردیم و به زودی بررسی می‌شه. 🌟\n` +
-                     `اگر جزئیات بیشتری داری، بفرست! 📝😉`;
+                     `اگر جزئیات بیشتری داری، بفرست ! 📝😉`;
     }
   } else {
     // ادمین (پاسخ به تیکت)
