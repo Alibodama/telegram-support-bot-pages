@@ -30,7 +30,7 @@ export async function onRequestPost(context) {
       const forwardText = `📩 تیکت جدید از ${fullName} (ID: ${chatId}):\n\n${messageText}`;
       await sendMessage(adminChatId, forwardText, botToken);
 
-      responseText = `✅ ممنون ${fullName} ! پیام‌ات رو دریافت کردیم و به زودی بررسی می‌شه . 🌟\n` +
+      responseText = `✅ ممنون ${fullName} ! پیامت رو دریافت کردم و به زودی بررسی می‌شه . 🌟\n` +
                      `اگر جزئیات بیشتری داری ، بفرست ! 📝😉`;
     }
   } else {
